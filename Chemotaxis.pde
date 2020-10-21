@@ -7,7 +7,7 @@ PImage photo;
  void setup()   
  {     
    size(700,700); 
-   photo = loadImage("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.clipartmax.com%2Fso%2Fhamburger-clipart%2F&psig=AOvVaw31Oqn6M39iJwBBzGb1QSwt&ust=1603347881256000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIi4yr6GxewCFQAAAAAdAAAAABAD");
+   photo = loadImage("hamburg.png");
  }   
  void draw()   
  {   
