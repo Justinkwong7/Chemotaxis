@@ -51,13 +51,15 @@ PImage photo;
    }
    
    void show() {
+   stroke(5);
    fill(myColor);
    ellipse(myX,myY,mySize,mySize);
    fill(0);
    ellipse(myX - 10, myY - 7, 5,5);
    ellipse(myX + 10, myY - 7, 5,5);
    fill(255);
-   arc(myX, myY + 10, 30, 30, 0, PI, CHORD);
+   noStroke();
+   arc(myX, myY + 10, 30, 30, 0, 3.14);
    }
    
    void recolor(){
