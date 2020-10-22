@@ -29,6 +29,7 @@ PImage photo;
    a.recolor();
    bob.recolor();
    b.recolor();
+   image(photo, mouseX-25, mouseY-25);
  }
  
  class Bacteria    
